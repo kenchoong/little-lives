@@ -1,0 +1,45 @@
+version: '3'
+services:
+  postgres:
+    container_name: postgres_container
+    # image: gangstead/postgis:latest-arm # for M1 Chip
+    image: postgis/postgis:12-master # for Intel Chip
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PASSWORD_AUTHENTICATION: 'md5'
+      POSTGRES_DB: little-lives
+    networks:
+      - backend-network
+    ports:
+      - 5432:5432
+    volumes:
+      - db_volume:/var/lib/postgresql/data
+
+  redis:
+    container_name: ggcg_redis
+    image: redis:alpine
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_volume:/var/lib/redis
+
+  adminer:
+    container_name: adminer
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - backend-network
+
+volumes:
+  db_volume:
+    external: false
+  redis_volume:
+    external: false
+
+networks:
+  backend-network:
+    driver: bridge
