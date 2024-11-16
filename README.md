@@ -1,7 +1,8 @@
 
 # Setup docker and environment 
 
-> docker-compose up 
+> docker-compose up
+
 This will setup postgres db and adminer 
 
 In adminer 
@@ -9,7 +10,8 @@ add a new database `little_lives`
 
 # How to run 
 
-> yarn 
+> yarn
+> 
 > yarn dev 
 
 The table will auto created
