@@ -31,10 +31,12 @@ Public holidy table
 
 # API 
 Get the available slots 
-http://localhost:3777/appointment/available-slot/14-11-2024
+
+GET http://localhost:3777/appointment/available-slot/14-11-2024
 (the date in dd-mm-yyyy format)
 
 create the appointment 
+
 POST http://localhost:3777/appointment/create
 
 body 
