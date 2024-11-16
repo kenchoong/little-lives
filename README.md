@@ -48,6 +48,10 @@ body
     "time" :"10:00"
 }
 
+# Diagram 
+
+https://drive.google.com/file/d/1KMDOKnwb5d49x9PcI8B-mfS9gpnSOi2r/view?usp=sharing
+
 
 Sorry, no time to write this README in a nicely way, not enough time
 and also the commit message, no time for that as well 
