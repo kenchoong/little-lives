@@ -18,6 +18,7 @@ The table will auto created
 
 # Seed 
 Seed all this in the db 
+
 Configuration table 
 
 > INSERT INTO "configuration" ("id", "created_at", "updated_at", "operation_day", "operation_day_name", "operation_start_time", "operation_end_time", "unavailable_hours") VALUES
