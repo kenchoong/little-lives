@@ -42,3 +42,9 @@ body
     "date" :"17-11-2024",
     "time" :"10:00"
 }
+
+
+Sorry, no time to write this README in a nicely way, not enough time
+Have a lot need to do, validation etc, 
+when have time, we talk more about it. 
+Thanks for reading 
