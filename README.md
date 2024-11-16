@@ -45,6 +45,7 @@ body
 
 
 Sorry, no time to write this README in a nicely way, not enough time
+and also the commit message, no time for that as well 
 Have a lot need to do, validation etc, 
 when have time, we talk more about it. 
 Thanks for reading 
